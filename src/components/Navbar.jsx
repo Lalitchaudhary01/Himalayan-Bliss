@@ -8,11 +8,6 @@ function Navbar() {
         <h1 className="text-xl font-bold">Himalayan Bliss</h1>
         <ul className="flex space-x-6">
           <li>
-            <Link to="/" className="hover:underline">
-              Home
-            </Link>
-          </li>
-          <li>
             <Link to="/gallery" className="hover:underline">
               Gallery
             </Link>
