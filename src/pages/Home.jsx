@@ -1,14 +1,16 @@
 import React from "react";
 import HeroSection from "../components/HeroSection";
 import Itinerary from "../components/Itinerary";
-import Map from "../components/Map";
+import Gallery from "../components/Gallery";
+import ContactForm from "../components/ContactForm";
 
 function Home() {
   return (
     <div>
       <HeroSection />
       <Itinerary />
-      <Map />
+      <Gallery />
+      <ContactForm />
     </div>
   );
 }

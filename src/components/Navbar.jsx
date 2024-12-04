@@ -12,6 +12,16 @@ function Navbar() {
         </h1>
         <ul className="flex space-x-6">
           <li>
+            <a
+              href="https://forms.gle/XEkcjgDHRAdV15qN9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Register
+            </a>
+          </li>
+          <li>
             <Link to="/gallery" className="hover:underline">
               Gallery
             </Link>
@@ -20,16 +30,6 @@ function Navbar() {
             <Link to="/contact" className="hover:underline">
               Contact
             </Link>
-          </li>
-          <li>
-            <a
-              href="https://forms.gle/YOUR_GOOGLE_FORM_LINK"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline"
-            >
-              Register
-            </a>
           </li>
         </ul>
       </div>
