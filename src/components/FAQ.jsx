@@ -31,7 +31,7 @@ const FAQ = () => {
     {
       question: "Who is organizing the trip?",
       answer:
-        "The trip is organized by Gaurav Fauzdar. Contact him at query.himallyanblis@gmail.com or +91 9520968520.",
+        "The trip is organized by Gaurav Fauzdar. Contact him at work.himallyanbliss@gmail.com or +91 9520968520.",
     },
     {
       question: "What places will we visit?",

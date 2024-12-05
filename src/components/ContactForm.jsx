@@ -21,7 +21,7 @@ function ContactForm() {
           </div>
           <div className="flex items-center mb-3">
             <FiMail className="text-2xl mr-3" />
-            <p className="text-lg">Email: query.himallyanblis@gmail.com</p>
+            <p className="text-lg">Email: work.himallyanbliss@gmail.com</p>
           </div>
           <div className="flex items-center">
             <FiPhone className="text-2xl mr-3" />
