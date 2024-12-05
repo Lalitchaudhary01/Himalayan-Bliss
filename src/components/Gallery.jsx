@@ -1,6 +1,7 @@
 import React from "react";
+import { Grid, Box } from "@mui/material";
 
-function Gallery() {
+const Gallery = () => {
   const images = [
     "https://img.veenaworld.com/wp-content/uploads/2018/06/Hadimba_Devi_Mandir.jpg", // Hadimba Temple, Manali
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD6k9Yk78WNp1q62aNIUH4cKdOpVqef4vstA&s", // Solang Valley, Manali
@@ -13,20 +14,35 @@ function Gallery() {
   ];
 
   return (
-    <div className="container mx-auto my-10">
-      <h2 className="text-2xl font-bold text-center mb-6">Gallery</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+    <Box sx={{ maxWidth: "1200px", margin: "0 auto", padding: "20px" }}>
+      <h2
+        style={{
+          textAlign: "center",
+          fontSize: "24px",
+          fontWeight: "bold",
+          marginBottom: "20px",
+        }}
+      >
+        Gallery
+      </h2>
+      <Grid container spacing={3}>
         {images.map((src, idx) => (
-          <img
-            key={idx}
-            src={src}
-            alt={`Gallery ${idx + 1}`}
-            className="rounded-lg shadow-md"
-          />
+          <Grid item xs={12} sm={6} md={4} lg={3} key={idx}>
+            <img
+              src={src}
+              alt={`Gallery ${idx + 1}`}
+              style={{
+                width: "100%",
+                height: "auto",
+                borderRadius: "8px",
+                boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+              }}
+            />
+          </Grid>
         ))}
-      </div>
-    </div>
+      </Grid>
+    </Box>
   );
-}
+};
 
 export default Gallery;
