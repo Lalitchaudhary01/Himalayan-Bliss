@@ -39,7 +39,7 @@ function Itinerary() {
         "Check out from the hotel",
         "Last-minute shopping and packing",
         "Visit any missed local attractions",
-        "Depart from Manali in the evening",
+        "Depart from Kasol in the Afternoon",
       ],
     },
   ];
