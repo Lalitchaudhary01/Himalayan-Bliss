@@ -13,7 +13,7 @@ function HeroSection() {
       >
         {/* Circle with price */}
         <div className="absolute top-6 left-6 bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full shadow-md transform transition-transform duration-300 hover:scale-105">
-          Prize only ₹6499
+          Prize only ₹6799
         </div>
 
         {/* Gradient Overlay */}

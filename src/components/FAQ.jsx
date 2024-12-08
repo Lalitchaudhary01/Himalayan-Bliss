@@ -26,7 +26,7 @@ const FAQ = () => {
     {
       question: "What are the costs involved?",
       answer:
-        "The total cost of the trip, including travel, accommodation, and food, is ₹6499 per person.",
+        "The total cost of the trip, including travel, accommodation, and food, is ₹6799 per person.",
     },
     {
       question: "Who is organizing the trip?",
