@@ -5,12 +5,12 @@ const Gallery = () => {
   const images = [
     "https://img.veenaworld.com/wp-content/uploads/2018/06/Hadimba_Devi_Mandir.jpg", // Hadimba Temple, Manali
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD6k9Yk78WNp1q62aNIUH4cKdOpVqef4vstA&s", // Solang Valley, Manali
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaR9wy1_aG1k-jgo2zAw3oiR1NhiqhSywPvQ&s", // Manikaran Sahib, Kasol
+    "https://images.unsplash.com/photo-1621342797383-af042377a06c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbmlrYXJhbnxlbnwwfHwwfHx8MA%3D%3D", // Manikaran Sahib, Kasol
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8WVWwtoyLfQWpRxj9KfAia4Fh-OYUm4IhkA&s", // Kasol Village
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjBw0tHhSJ7iXXfrM7taaqoqC9yf-ixy8epQ&s", // Mountain View, Manali
-    "https://img.freepik.com/free-photo/nature-chalal-trek-trail-sosan-india_181624-29503.jpg?ga=GA1.1.807677743.1728565217&semt=ais_tags_boosted", // Parvati River, Kasol
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm06iAEVZUqSZlGy2pDpEz2Z4pM9GUv-AAOQ&s", // Mountain View, Manali
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZN31k02xJLMPN7IVHN7nux2FG1sq7NF6Iig&s", // Parvati River, Kasol
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSEprLX_2m_1pkzKlc6oiUj0wFO45Ctqjfvw&s", // Camping in Kasol
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcpnfqioUBdQAp5_bCs91j6SYm4mwZqDNl1A&s", // Mall Road, Manali
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ibtYoVJg9HfneYOXTuWAqBRL4pdm_I5qDw&s", // Mall Road, Manali
   ];
 
   return (
@@ -33,7 +33,8 @@ const Gallery = () => {
               alt={`Gallery ${idx + 1}`}
               style={{
                 width: "100%",
-                height: "auto",
+                height: "200px", // Set a fixed height
+                objectFit: "cover", // Crop the image to fit within the dimensions
                 borderRadius: "8px",
                 boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
               }}
