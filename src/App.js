@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import Footer from "./components/Footer";
-import PaymentForm from "./components/PaymentForm";
+import RazorpayCheckout from "./components/RazorpayCheckout";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/payment" element={<PaymentForm />} />
+        <Route path="/payment" element={<RazorpayCheckout />} />
       </Routes>
       <Footer />
     </Router>
