@@ -36,6 +36,15 @@ function HeroSection() {
           >
             Join the Journey
           </a>
+          <br />
+          <a
+            href="https://forms.gle/XEkcjgDHRAdV15qN9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-block px-8 py-3 bg-gradient-to-r from-green-500 via-teal-400 to-blue-500 text-lg font-semibold rounded-full shadow-lg transform transition-all duration-300 hover:scale-110 hover:shadow-xl"
+          >
+            Register
+          </a>
         </div>
       </header>
       <ImportantDates />

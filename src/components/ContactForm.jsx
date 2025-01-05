@@ -17,9 +17,7 @@ function ContactForm() {
         <div className="mb-6 text-white">
           <div className="flex items-center mb-3">
             <FiUser className="text-2xl mr-3" />
-            <h3 className="text-2xl font-bold">
-              Organizer: Gaurav Fauzdar <br />& Lalit Chaudhary
-            </h3>
+            <h3 className="text-2xl font-bold">Organizer: Gaurav Fauzdar</h3>
           </div>
           <div className="flex items-center mb-3">
             <FiMail className="text-2xl mr-3" />
@@ -27,7 +25,7 @@ function ContactForm() {
           </div>
           <div className="flex items-center mb-3">
             <FiPhone className="text-2xl mr-3" />
-            <p className="text-lg">Phone: +91 9520968520 & 8445646300</p>
+            <p className="text-lg">Phone: +91 9520968520 </p>
           </div>
           <div className="flex items-center">
             <FiInstagram className="text-2xl mr-3" />
